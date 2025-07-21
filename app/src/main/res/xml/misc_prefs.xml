@@ -146,7 +146,7 @@
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
 			android:defaultValue="false"
 			android:key="keyguardSliceViewCustomA16"
-			android:title="KeyguardSliceView Custom (for A16)" />
+			android:title="KeyguardSliceView Custom (A16)" />
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
 			android:defaultValue="false"
 			android:key="keyguardSliceViewBurnIn"
@@ -262,10 +262,6 @@
 			android:title="Disable Battery Time in Status Bar" />
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
 			android:defaultValue="false"
-			android:key="batteryEndExtraPadding"
-			android:title="Battery Padding End in Landscape" />
-		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
-			android:defaultValue="false"
 			android:key="hookUnlockAnim"
 			android:title="Hook Unlock Animation" />
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
@@ -283,11 +279,19 @@
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
 			android:defaultValue="false"
 			android:key="largeClockTopMarginA16"
-			android:title="Move Large Clock Up A16" />
+			android:title="Move Large Clock Up (A16)" />
+		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
+			android:defaultValue="false"
+			android:key="largeClockDateSmartSpaceTopMarginA16"
+			android:title="Move Date Below Clock (A16)" />
 		<sh.siava.AOSPMods.ui.MaterialEditTextPreference
 			android:key="largeClockTopMarginDynamic"
 			android:title="Large Clock Margin"
 			app:defaultValue="80" />
+		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
+			android:defaultValue="false"
+			android:key="hideClockDateSmartSpaceA16"
+			android:title="Hide Date SmartSpace (A16)" />
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
 			android:defaultValue="false"
 			android:key="hideLockScreenStatusBar"
@@ -300,10 +304,6 @@
 			android:defaultValue="false"
 			android:key="qsTileVibrate"
 			android:title="Vibrate QS tiles on Tap" />
-		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
-			android:defaultValue="false"
-			android:key="hideBuildNumber"
-			android:title="Hide Build Number in QS Panel" />
 		<sh.siava.AOSPMods.ui.MaterialSwitchPreference
 			android:defaultValue="false"
 			android:key="enableClipboardSmartActions"
